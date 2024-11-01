@@ -1,0 +1,70 @@
+.tree-row {
+    padding-top: 20px;
+}
+
+.tree-form h1 {
+    padding-top: 40px;
+}
+
+.tree-form-label {
+    display:block;
+    width:320px;
+}
+
+.tree-label-field{
+    display:block;
+    margin:7px 10px 3px 3px;
+}
+
+.tabs {
+    padding-top: 20px;
+}
+
+.tabs .active {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid orange;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.tabs a {
+    text-decoration: none;
+    padding: 13px 25px;
+}
+
+.tabs a:focus {
+    box-shadow: none;
+}
+
+.chatbot-table {
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+.tabs li {
+    display: inline-block;
+    margin: 0 0 -1px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+.chatbot-container {
+    margin-bottom: 30px;
+}
+
+.chatbot-form-err {
+    color: #FF0000;
+}
+
+.tree-row-multiple-col {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tree-form-label-multiple {
+    display:block;
+    width: 300px;
+}

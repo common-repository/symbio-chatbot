@@ -1,0 +1,158 @@
+{
+    "id": 1,
+    "parent": 0,
+    "user": {
+        "content": "Hey I am user1",
+        "action": ""
+    },
+    "bot": {
+        "collection": [
+            {
+                "content": "Hey I am bot",
+                "action": ""
+            },
+            {
+                "content": "Hey I am bot2",
+                "action": ""
+            },
+            {
+                "content": "Hey I am bot3",
+                "action": ""
+            }
+        ]
+    },
+    "path": [],
+    "children": [
+        {
+            "id": 2,
+            "parent": 1,
+            "user": {
+                "content": "Hey I am user2",
+                "action": ""
+            },
+            "bot": {
+                "collection": [
+                    {
+                        "content": "Hey I am bot",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot2",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot3",
+                        "action": ""
+                    }
+                ]
+            },
+            "path": ["children", 0],
+            "children": [
+                {
+                    "id": 5,
+                    "parent": 1,
+                    "user": {
+                        "content": "Hey I am user5",
+                        "action": ""
+                    },
+                    "bot": {
+                        "collection": [
+                            {
+                                "content": "Hey I am bot",
+                                "action": ""
+                            },
+                            {
+                                "content": "Hey I am bot2",
+                                "action": ""
+                            },
+                            {
+                                "content": "Hey I am bot3",
+                                "action": ""
+                            }
+                        ]
+                    },
+                    "path": ["children", 0, "children", 0],
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "parent": 1,
+                    "user": {
+                        "content": "Hey I am user6",
+                        "action": ""
+                    },
+                    "bot": {
+                        "collection": [
+                            {
+                                "content": "Hey I am bot",
+                                "action": ""
+                            },
+                            {
+                                "content": "Hey I am bot2",
+                                "action": ""
+                            },
+                            {
+                                "content": "Hey I am bot3",
+                                "action": ""
+                            }
+                        ]
+                    },
+                    "path": ["children", 0, "children", 1],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "parent": 1,
+            "user": {
+                "content": "Hey I am user3",
+                "action": ""
+            },
+            "bot": {
+                "collection": [
+                    {
+                        "content": "Hey I am bot",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot2",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot3",
+                        "action": ""
+                    }
+                ]
+            },
+            "path": ["children", 1],
+            "children": []
+        },
+        {
+            "id": 4,
+            "parent": 1,
+            "user": {
+                "content": "Hey I am user4",
+                "action": ""
+            },
+            "bot": {
+                "collection": [
+                    {
+                        "content": "Hey I am bot",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot2",
+                        "action": ""
+                    },
+                    {
+                        "content": "Hey I am bot3",
+                        "action": ""
+                    }
+                ]
+            },
+            "path": ["children", 2],
+            "children": []
+        }                                
+    ]
+}
